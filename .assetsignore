@@ -1,0 +1,10 @@
+.git
+.gitignore
+.assetsignore
+.DS_Store
+Thumbs.db
+worker.js
+wrangler.jsonc
+wrangler.toml
+README.md
+node_modules

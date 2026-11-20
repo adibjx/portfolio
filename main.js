@@ -5,7 +5,7 @@
    Files live in /videos/ and are deployed with the site, not
    committed (see .gitignore). Append the next number to add one:
 
-     { src: "/videos/09.mp4", poster: "/videos/09.jpg" },
+     { src: "/videos/11.mp4", poster: "/videos/11.jpg" },
    ============================================================ */
 
 const VIDEO_ADS = [
@@ -17,6 +17,8 @@ const VIDEO_ADS = [
   { src: "/videos/06.mp4", poster: "/videos/06.jpg" },
   { src: "/videos/07.mp4", poster: "/videos/07.jpg" },
   { src: "/videos/08.mp4", poster: "/videos/08.jpg" },
+  { src: "/videos/09.mp4", poster: "/videos/09.jpg" },
+  { src: "/videos/10.mp4", poster: "/videos/10.jpg" },
 ];
 
 const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
