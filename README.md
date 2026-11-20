@@ -1,6 +1,6 @@
 # Adib Vieira — portfolio
 
-Static one-pager for [portfolio.adibjv.com](https://portfolio.adibjv.com/). No build step. Upload the folder to Cloudflare Pages (build command empty, output directory `/`) or as Workers static assets.
+Static one-pager for [portfolio.adibv.com](https://portfolio.adibv.com/). No build step. Upload the folder to Cloudflare Pages (build command empty, output directory `/`) or as Workers static assets.
 
 Preview locally:
 
@@ -21,13 +21,14 @@ The files are not in git (they are about 110MB). `videos/` is gitignored. Deploy
 - 13 — mom's faith V1 (removed; not in the array)
 - 14 — pawn shop
 - 15 — mom's faith V3
+- 16 — hospital necklace ("Ma'am, it's just a necklace", Tanaor)
 
 Cards are 9:16. Posters show first (`preload="none"`). The player is the browser’s own controls. Only one video plays at a time.
 
-To add another ad, drop in `videos/16.mp4` and `videos/16.jpg`, then append a line in `main.js`:
+To add another ad, drop in `videos/17.mp4` and `videos/17.jpg`, then append a line in `main.js`:
 
 ```js
-{ src: "/videos/16.mp4", poster: "/videos/16.jpg" },
+{ src: "/videos/17.mp4", poster: "/videos/17.jpg" },
 ```
 
 Order on the page is the order of that list.
