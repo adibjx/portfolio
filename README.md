@@ -15,14 +15,14 @@ Open http://127.0.0.1:4173
 The files are not in git (they are about 110MB). `videos/` is gitignored. Deploy that folder next to `index.html` as static assets, so the live paths are:
 
 - `/videos/01.mp4` and `/videos/01.jpg`
-- through `/videos/10.mp4` and `/videos/10.jpg`
+- through `/videos/12.mp4` and `/videos/12.jpg`
 
 Cards are 9:16. Posters show first (`preload="none"`). The player is the browser’s own controls. Only one video plays at a time.
 
-To add another ad, drop in `videos/11.mp4` and `videos/11.jpg`, then append a line in `main.js`:
+To add another ad, drop in `videos/13.mp4` and `videos/13.jpg`, then append a line in `main.js`:
 
 ```js
-{ src: "/videos/11.mp4", poster: "/videos/11.jpg" },
+{ src: "/videos/13.mp4", poster: "/videos/13.jpg" },
 ```
 
 Order on the page is the order of that list.
