@@ -14,17 +14,20 @@ Open http://127.0.0.1:4173
 
 The files are not in git (they are about 110MB). `videos/` is gitignored. Deploy that folder next to `index.html` as static assets. Each live ad is `/videos/NN.mp4` plus `/videos/NN.jpg`. Page order is the order of `VIDEO_ADS` in `main.js`, not the filename numbers.
 
+- 06 — Paul second hook (removed; not in the array)
+- 07 — Clyde (removed; not in the array)
 - 11 — wedding necklace
 - 12 — reserved for the whole bible ad (not live yet; not in the array)
-- 13 — mom's faith came back (song)
+- 13 — mom's faith V1 (removed; not in the array)
 - 14 — pawn shop
+- 15 — mom's faith V3
 
 Cards are 9:16. Posters show first (`preload="none"`). The player is the browser’s own controls. Only one video plays at a time.
 
-To add another ad, drop in `videos/15.mp4` and `videos/15.jpg`, then append a line in `main.js`:
+To add another ad, drop in `videos/16.mp4` and `videos/16.jpg`, then append a line in `main.js`:
 
 ```js
-{ src: "/videos/15.mp4", poster: "/videos/15.jpg" },
+{ src: "/videos/16.mp4", poster: "/videos/16.jpg" },
 ```
 
 Order on the page is the order of that list.
